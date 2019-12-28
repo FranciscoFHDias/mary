@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const Dotenv = require('dotenv-webpack')
 
@@ -25,8 +25,15 @@ module.exports = {
         loader: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
-        test: /\.(jpeg|png|svg|jpg|gif)$/,
-        use: ['file-loader']
+        test: /\.(jpeg|jpg|png|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: './img/[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
@@ -44,6 +51,7 @@ module.exports = {
       filename: 'index.html',
       inject: 'body'
     }),
-    env
+    env,
+    new CopyWebpackPlugin([{ from: './src/img', to: 'img' }])
   ]
 }
