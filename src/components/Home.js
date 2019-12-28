@@ -1,4 +1,11 @@
 import React from 'react'
+import Wagamama from '../img/Wagamama.png'
+import Nandos from '../img/Nandos.png'
+import Tortilla from '../img/Tortilla.png'
+import Travelodge from '../img/travelodge.jpeg'
+import British from '../img/British.png'
+import Rossopomodoro from '../img/Rossopomodoro.png'
+
 
 class Home extends React.Component {
 
@@ -71,32 +78,32 @@ class Home extends React.Component {
         <p className="clients-title">Clients:</p>
         <div className="clients">
           <img
-            src="../img/Nandos.png"
+            src={Nandos}
             className="rounded mx-auto"
             alt="Nando/'s logo"
           />
           <img
-            src="../img/British.png"
+            src={British}
             className="rounded mx-auto"
             alt="British Transport Police logo"
           />
           <img
-            src="../img/Wagamama.png"
+            src={Wagamama}
             className="rounded mx-auto"
             alt="Wagamama logo"
           />
           <img
-            src="../img/Rossopomodoro.png"
+            src={Rossopomodoro}
             className="rounded mx-auto"
             alt="Rossopomodoro logo"
           />
           <img
-            src="../img/Tortilla.png"
+            src={Tortilla}
             className="rounded mx-auto"
             alt="Tortilla logo"
           />
           <img
-            src="../img/travelodge.jpeg"
+            src={Travelodge}
             className="rounded mx-auto"
             alt="Travelodge logo"
           />
