@@ -68,6 +68,7 @@ class Home extends React.Component {
           </div>
         </div>
         <hr />
+        <p className="clients-title">Clients:</p>
         <div className="clients">
           <img
             src="../img/Nandos.png"
