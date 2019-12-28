@@ -20,8 +20,17 @@ module.exports = {
     rules: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
-      { test: /\.(jpeg|jpg|png|gif)$/, loader: 'file-loader' }
+      {
+        test: /\.s(a|c)ss$/,
+        loader: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'img'
+        }
+      }
     ]
   },
   devServer: {
@@ -39,8 +48,6 @@ module.exports = {
       inject: 'body'
     }),
     env,
-    new CopyWebpackPlugin([
-      { from: './src/img', to: 'img' }
-    ])
+    new CopyWebpackPlugin([{ from: './src/img', to: 'img' }])
   ]
 }
