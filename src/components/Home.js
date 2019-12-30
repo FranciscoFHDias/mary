@@ -108,6 +108,7 @@ class Home extends React.Component {
             alt="Travelodge logo"
           />
         </div>
+        <hr/>
       </div>
     )
   }

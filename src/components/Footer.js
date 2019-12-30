@@ -19,8 +19,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className="container-fluid">
-        <hr />
+      <div className="container">
         <div className="row">
           <div className="col-sm-6">
             <div className="footer-widget">
