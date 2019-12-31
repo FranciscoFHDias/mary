@@ -19,11 +19,12 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
+        <hr/>
         <div className="row">
           <div className="col-sm-6">
             <div className="footer-widget">
-              <h3 className="footer-title">Stay in touch</h3>
+              <h5 className="footer-title">Stay in touch</h5>
               <div className="footer-widget-content">
                 <FontAwesomeIcon className="icon" icon={faEnvelope} />
                 <a href="mailto:maryk@the-people-element.com" className="link">
@@ -71,7 +72,7 @@ class Footer extends React.Component {
           </div>
           <div className="col-sm-6">
             <div className="footer-widget">
-              <h3 className="footer-title">Upcoming Events</h3>
+              <h5 className="footer-title">Upcoming Events</h5>
               <div className="footer-widget-content">
                 <div className="media">
                   <div className="media-left">

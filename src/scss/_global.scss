@@ -38,7 +38,7 @@ p{
   margin-top: 10px;
 }
 
-.rounded{
+.mx-auto{
   width: 10%;
   height: 10%;
   align-self: center;
@@ -61,4 +61,46 @@ p{
 .clients-title{
   opacity: 50%;
   text-align: center;
+}
+
+.lead-title{
+  color: red;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+.display-6{
+  font-weight: 300;
+}
+
+.card-img-top{
+  width: 80%;
+  height: 80%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.align-self-center{
+  width: 10%;
+  height: 10%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.card{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+
+  .align-self-center{
+    width: 25%;
+    height: 25%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
 }

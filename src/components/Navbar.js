@@ -29,11 +29,16 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
               <img src={logo} alt="logo" />
             </Link>
+          </div>
+          <div>
+            <h4>Improving</h4>
+            <h4>People Management</h4>
+            <h4>Skills and Systems</h4>
           </div>
           <button
             className={`navbar-toggler ${
@@ -55,12 +60,7 @@ class Navbar extends React.Component {
             }`}
             id="navbarText"
           >
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">
-                  Home
-                </Link>
-              </li>
+            <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/consultancy">
                   Consultancy and Training
