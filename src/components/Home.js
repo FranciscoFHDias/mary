@@ -32,7 +32,7 @@ class Home extends React.Component {
             <div className="border-white">
               <div className="card-body">
                 <h5 className="card-title">
-                  Consultancy and Training Products
+                  Consultancy and Training Projects
                 </h5>
                 <ul>
                   <li>
