@@ -25,7 +25,7 @@ class Consultancy extends React.Component {
 
         <div className="row">
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Nandos}
                 className="card-img-top"
@@ -64,7 +64,7 @@ class Consultancy extends React.Component {
           </div>
 
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Travelodge}
                 className="card-img-top"
@@ -95,7 +95,7 @@ class Consultancy extends React.Component {
           </div>
 
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Wagamama}
                 className="card-img-top"
@@ -131,7 +131,7 @@ class Consultancy extends React.Component {
           </div>
 
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={British}
                 className="card-img-top"
@@ -160,7 +160,7 @@ class Consultancy extends React.Component {
             </div>
           </div>
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Tortilla}
                 className="card-img-top"
@@ -191,7 +191,7 @@ class Consultancy extends React.Component {
             </div>
           </div>
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Rossopomodoro}
                 className="card-img-top"
@@ -227,7 +227,7 @@ class Consultancy extends React.Component {
             </div>
           </div>
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img src={Creams} className="card-img-top" alt="Creams logo" />
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
@@ -257,7 +257,7 @@ class Consultancy extends React.Component {
             </div>
           </div>
           <div className="col">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card">
               <img
                 src={Colten}
                 className="card-img-top"

@@ -29,7 +29,7 @@ class Home extends React.Component {
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <div className="card border-white">
+            <div className="border-white">
               <div className="card-body">
                 <h5 className="card-title">
                   Consultancy and Training Products
@@ -52,7 +52,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="col-sm-6">
-            <div className="card border-white">
+            <div className="border-white">
               <div className="card-body">
                 <h5 className="card-title">Interim Management</h5>
                 <ul>

@@ -92,6 +92,7 @@ p{
 
 .card{
   margin-bottom: 20px;
+  width: 18rem;
 }
 
 @media (max-width: 575.98px) {
@@ -101,6 +102,11 @@ p{
     height: 25%;
     padding-top: 10px;
     padding-bottom: 20px;
+  }
+
+  .card{
+  margin-bottom: 20px;
+  width: 21.5rem;
   }
 
 }
