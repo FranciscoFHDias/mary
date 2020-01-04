@@ -61,7 +61,7 @@ class Contact extends React.Component {
             <input
               className="form-control"
               name="from_name"
-              placeholder="eg: Donald"
+              placeholder="e.g. Donald"
               onChange={this.handleChange}
               value={this.state.formData.from_name}
             />
@@ -76,7 +76,7 @@ class Contact extends React.Component {
               className="form-control"
               type="email"
               name="reply_to"
-              placeholder="eg: donaldduck@baldandsexy.com"
+              placeholder="e.g. donaldduck@gmail.com"
               onChange={this.handleChange}
               value={this.state.formData.reply_to}
             />
@@ -87,7 +87,7 @@ class Contact extends React.Component {
             <textarea
               className="form-control"
               name="message_html"
-              placeholder="e.g. Hello world"
+              placeholder="e.g. Hello"
               onChange={this.handleChange}
               value={this.state.formData.message_html}
             />
