@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 
 class Contact extends React.Component {
   constructor() {
-    super()
+    super(),
     this.state = {
       formData: {
         from_name: '',
@@ -19,7 +19,6 @@ class Contact extends React.Component {
 
   sendEmail(e) {
     e.preventDefault()
-
     emailjs
       .send(
         process.env.SERVICE_ID,
